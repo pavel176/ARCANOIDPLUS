@@ -12,7 +12,7 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#mainPage">
+          <a class="navbar-brand" href="#">
                 <img src="ico.png" width="30" height="30" class="d-inline-block align-top rounded-3" alt="">
                 ARCANOID+
             </a>
@@ -25,10 +25,10 @@
                 <a class="nav-link active" aria-current="page" href="#mainPage">главная</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#InstallPage">скачать</a>
+                <a class="nav-link active" href="#InstallPage">скачать</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#InfoPage">о игре</a>
+                <a class="nav-link active" href="#InfoPage">о мне и игре</a>
               </li>
             </ul>
           </div>
@@ -53,21 +53,54 @@
                     <div class="fs-2">
                         ARCANOID+
                     </div>
-                    <div class="fs-4 w-75">
+                    <div class="fs-4 w-75 d-none d-md-block">
+                        Здесь вы можете скачать данную игру
+                    </div>
+                    <div class="fs-6 w-100 d-block d-md-none">
                         Здесь вы можете скачать данную игру
                     </div>
                     <a href="#" class="btn btn-primary mt-2">скачать</a>
             </div>
         </div>
     </div>
-    <div id="InfoPage" class="w-100 d-flex justify-content-center align-items-center position-relative" style="height: 100vh;">
-        <div class="p-5">
+    <div id="InfoPage" class="w-100 d-flex justify-content-center align-items-center position-relative" style="min-height: 100vh;">
+        <!-- PC -->
+        <div class="p-5 d-none d-md-block">
             <div class="text-light fs-2">
                 О игре ARCANOID+
             </div>
             <div class="text-light fs-4 w-75">
                 Если говорить просто это новая версия арканоид. В отличии от оригинала в игре мяч подчиняеться физике. Есть различные бонусы и скины.
                 Достаточно красивая игрушка в которую можно позалипать в метро ну или в очереди на удаление почки. 
+            </div>
+            <br><br>
+            <div class="text-light fs-2">
+                О мне
+            </div>
+            <div class="text-light fs-4 w-75">
+                Меня зовут Васенков Павел. Мне 15 лет. Я люблю делать игрульки на unity. Это первая моя <b>готовая</b> игра. 
+                До этого у меня уже было 2 итересных проекта но к сожалению их я ещё не доделал. Но обязательно додалаю в будующем!
+                Вот моя почта для тех кому интересно: notmyemail@gmail.com
+            </div>
+        </div>
+
+        <!-- PHONE -->
+        <div class="p-5 d-block d-md-none">
+            <div class="text-light fs-4">
+                О игре ARCANOID+
+            </div>
+            <div class="text-light fs-6 w-75">
+                Если говорить просто это новая версия арканоид. В отличии от оригинала в игре мяч подчиняеться физике. Есть различные бонусы и скины.
+                Достаточно красивая игрушка в которую можно позалипать в метро ну или в очереди на удаление почки. 
+            </div>
+            <br><br>
+            <div class="text-light fs-4">
+                О мне
+            </div>
+            <div class="text-light fs-6 w-75">
+                Меня зовут Васенков Павел. Мне 15 лет. Я люблю делать игрульки на unity. Это первая моя <b>готовая</b> игра. 
+                До этого у меня уже было 2 итересных проекта но к сожалению их я ещё не доделал. Но обязательно додалаю в будующем!
+                Вот моя почта для тех кому интересно: notmyemail@gmail.com
             </div>
         </div>
     </div>
